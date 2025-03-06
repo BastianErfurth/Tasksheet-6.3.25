@@ -13,8 +13,6 @@ void main() {
 
   //Aufgabe 1
 
-  String allNames = "";
-
   for (String allNames in names) {
     print(allNames);
   }
@@ -40,4 +38,15 @@ void main() {
     "Gregory": 6,
     "Leonhart": 3,
   };
+
+  for (String allStudents in studentLevel.keys) {
+    print(allStudents);
+  }
+
+  for (int allStudents in studentLevel.values) {
+    print(allStudents);
+  }
+  for (String allStudents in studentLevel.keys) {
+    print("$allStudents mit ${studentLevel[allStudents]}");
+  }
 }
