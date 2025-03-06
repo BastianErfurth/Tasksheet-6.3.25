@@ -39,6 +39,8 @@ void main() {
     "Leonhart": 3,
   };
 
+  // Bonusaufgabe 2
+
   for (String allStudents in studentLevel.keys) {
     print(allStudents);
   }
@@ -47,6 +49,6 @@ void main() {
     print(allStudents);
   }
   for (String allStudents in studentLevel.keys) {
-    print("$allStudents mit ${studentLevel[allStudents]}");
+    print("$allStudents mit ${studentLevel[allStudents]} Punkten");
   }
 }
