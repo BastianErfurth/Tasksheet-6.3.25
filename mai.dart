@@ -10,6 +10,9 @@ void main() {
     "Gregory",
     "Leonhart"
   ];
+
+  //Aufgabe 1
+
   String allNames = "";
 
   for (String allNames in names) {
